@@ -15,6 +15,12 @@ def get_yolov5(confident_val):
    model.conf = confident_val    
    return model
  
+ 
+st.sidebar.image("logo.png", caption=None, width=300, use_column_width=None, clamp=False, channels='RGB', output_format='auto')
+st.sidebar.header('👉 Mckiler 👈')
+st.sidebar.header('Choose Prediction Model')
+model_choice = st.sidebar.selectbox('Logo Detection Model', ['YoloV5s Prediction','Other predictions'], key='1')
+
 ## สร้าง object ของโมเดลไว้สำหรับการเช็คโลโก้ในภาพ
 model_logo = get_yolov5(0.4)
 
