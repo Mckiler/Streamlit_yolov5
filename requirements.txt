@@ -2,5 +2,4 @@ torch --extra-index-url https://download.pytorch.org/whl/cpu
 torchvision --extra-index-url https://download.pytorch.org/whl/cpu
 streamlit
 PIL
-io
--e git://github.com/ultralytics/yolov5 
+io 
