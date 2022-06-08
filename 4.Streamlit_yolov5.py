@@ -5,7 +5,7 @@ import os
 import streamlit as st
 import pandas as pd
 import numpy as np
-import torch
+# import torch
 from PIL import Image
 
 ## เราสร้างฟังก์ชั่นโดยรับตัวแปรเป็น confident value เข้าไป ซึ่งจะมีค่าตั้งแต่ 0-1 ไว้สำหรับเป็นค่า threshold prediction
