@@ -1,5 +1,4 @@
 torch --extra-index-url https://download.pytorch.org/whl/cpu
 torchvision --extra-index-url https://download.pytorch.org/whl/cpu
-streamlit
-PIL
+streamlit 
 io 
