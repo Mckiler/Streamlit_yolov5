@@ -3,4 +3,4 @@ torchvision --extra-index-url https://download.pytorch.org/whl/cpu
 streamlit
 PIL
 io
-git clone https://github.com/ultralytics/yolov5 
+-e git://github.com/ultralytics/yolov5 
