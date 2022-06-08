@@ -31,4 +31,4 @@ img = Image.open('test\9bf6d28723ca69e7.jpg')
 results = model_logo(img, size= 640)
 results.render()
 
-results.show()
+# results.show()
